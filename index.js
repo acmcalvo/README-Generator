@@ -1,7 +1,7 @@
-// TODO: Include packages needed for this application
-
-// TODO: Create an array of questions for user input
-const questions = [];
+// Create call to inquirer
+const inquirer = require('inquirer');
+const generatePage = require('./src/page-template');
+const { writeFile, copyFile } = require('./utils/generate-site');
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
