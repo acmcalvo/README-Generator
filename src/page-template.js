@@ -57,26 +57,28 @@ const generateProjects = projectsArr => {
 };
 
 
-function showReadme (data) { 
-  return `
- 
-  ## Description
-  ${data.description}
-  
-    `;
-  };
-
 
 
 // export function to generate entire page
 module.exports = templateData => {
   // destructure page data by section
   // const { projects, about, ...header } = templateData;
-
+console.log(templateData[0])
   return `
+
+# ${templateData[0].name}
+# ${templateData[0].email}
+# ${templateData[0].ProjectName}
+# ${templateData[0].description}
+# ${templateData[0].license}
+# ${templateData[0].install}
+# ${templateData[0].run}
+# ${templateData[0].usingRepo}
+# ${templateData[0].contributing}
+# ${templateData[0].questions}
  
 ## Description
-${templateData.description}
+
 
   `;
 };
