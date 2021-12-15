@@ -17,28 +17,13 @@ function generateMarkdown(data) {
       licenseOption = 'GNUGPLv3';
       licenseLink = 'https://choosealicense.com/licenses/gpl-3.0/';
     };
-    // if (licenseOption === 'GNU LGPLv3') {
-    //   licenseOption = 'GNULGPLv3';
-    //   licenseLink = 'https://choosealicense.com/licenses/lgpl-3.0/';
-    // };
-    // if (licenseOption === 'Mozilla Public License 2.0') {
-    //   licenseOption = 'MozillaPublicLicense2.0';
-    //   licenseLink = 'https://choosealicense.com/licenses/mpl-2.0/';
-    // };
+   
     if (licenseOption === 'Apache License 2.0') {
       licenseOption = 'ApacheLicense2.0';
       licenseLink = 'https://choosealicense.com/licenses/apache-2.0/';
     };
     
-    // if (licenseOption === 'Boost Software License 1.0') {
-    //   licenseOption = 'BoostSoftwareLicense1.0';
-    //   licenseLink = 'https://choosealicense.com/licenses/bsl-1.0/';
-    // };
-    // if (licenseOption === 'The Unlicense') {
-    //   licenseOption = 'TheUnlicense';
-    //   licenseLink = 'https://choosealicense.com/licenses/unlicense/';
-    // };
-  
+    
   //create variable to hold markdown template and dynamically add to it
   let markdownTemplate =
       
