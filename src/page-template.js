@@ -57,6 +57,16 @@ const generateProjects = projectsArr => {
 };
 
 
+function showReadme (data) { 
+  return `
+ 
+  ## Description
+  ${data.description}
+  
+    `;
+  };
+
+
 
 // export function to generate entire page
 module.exports = templateData => {
@@ -65,7 +75,8 @@ module.exports = templateData => {
 
   return `
  
-# this is my Markdown file
+## Description
+${templateData.description}
 
   `;
 };

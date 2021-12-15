@@ -1,7 +1,7 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 const generatePage = require('./src/page-template.js');
-const { writeFile, copyFile } = require('./utils/generateMarkdown');
+// const { writeFile, copyFile } = require('./utils/generateMarkdown');
 
 
 
@@ -65,13 +65,14 @@ const promptUser = () => {
     }
   ]);
 };
+var portfolioData = []
 
 const promptProject = portfolioData => {
 
 
   // If there's no 'projects' array property, create one
-  if (!portfolioData.projects) {
-    portfolioData.projects = [];
+  if (!portfolioData) {
+    portfolioData = [];
   }
   return inquirer
     .prompt([
@@ -128,20 +129,77 @@ const promptProject = portfolioData => {
         }
       },
       {
-        type: 'confirm',
-        name: 'feature',
-        message: 'Would you like to feature this project?',
-        default: false
+        type: 'checkbox',
+        name: 'license',
+        message: 'What kind of license should your project have?',
+        choices: ['MIT License', 'GNU GPLv3', 'Apache License']
       },
       {
-        type: 'confirm',
-        name: 'confirmAddProject',
-        message: 'Would you like to enter another project?',
-        default: false
+        type: 'input',
+        name: 'install',
+        message: 'What command should run to install dependencies?',
+        validate: linkInput => {
+          if (linkInput) {
+            return true;
+          } else {
+            console.log('You need to enter install dependencies');
+            return false;
+          }
+        }
+      },
+      {
+        type: 'input',
+        name: 'run',
+        message: 'What command should run to run test?',
+        validate: linkInput => {
+          if (linkInput) {
+            return true;
+          } else {
+            console.log('You need to enter run command');
+            return false;
+          }
+        }
+      },
+
+      {
+        type: 'input',
+        name: 'usingRepo',
+        message: 'What does the user need to know about to using the repo?',
+        validate: linkInput => {
+          if (linkInput) {
+            return true;
+          } else {
+            console.log('You need to need to know user');
+            return false;
+          }
+        }
+        
+      },
+
+      {
+        type: 'input',
+        name: 'contributing',
+        message: 'What does the user need to know about contributing to the repo',
+        validate: linkInput => {
+          if (linkInput) {
+            return true;
+          } else {
+            console.log('You need to enter about contributing');
+            return false;
+          }
+        }
+      },
+
+      {
+        type: 'input',
+        name: 'questions',
+        message: 'Do you have any questions?',
       }
+
+  
     ])
     .then(projectData => {
-      portfolioData.projects.push(projectData);
+      portfolioData.push(projectData);
       if (projectData.confirmAddProject) {
         return promptProject(portfolioData);
       } else {
