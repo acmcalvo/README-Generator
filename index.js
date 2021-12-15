@@ -3,6 +3,8 @@ const inquirer = require('inquirer');
 const generatePage = require('./src/page-template.js');
 const { writeFile, copyFile } = require('./utils/generateMarkdown');
 
+
+
 const promptUser = () => {
   return inquirer.prompt([
     {
@@ -31,6 +33,24 @@ const promptUser = () => {
         }
       }
     },
+    { //checkbox that allows license choice
+      type: 'checkbox',
+      name: 'license',
+      message: 'Please choose a license.',
+      choices: [ 'MIT License', 'GNU GPLv3',
+         'Apache License 2.0', 
+       ],
+      validate: nameInput => {
+        if (nameInput) {
+          return true;
+        } else {
+          console.log('Please select a license.');
+          return false;
+        }
+      }
+    },
+
+    
     {
       type: 'confirm',
       name: 'confirmAbout',
@@ -47,11 +67,7 @@ const promptUser = () => {
 };
 
 const promptProject = portfolioData => {
-  console.log(`
-=================
-Add a New Project
-=================
-`);
+
 
   // If there's no 'projects' array property, create one
   if (!portfolioData.projects) {
@@ -62,44 +78,51 @@ Add a New Project
       {
         type: 'input',
         name: 'name',
-        message: 'What is the name of your project? (Required)',
+        message: 'What is Github username?',
         validate: nameInput => {
           if (nameInput) {
+            return true;
+          } else {
+            console.log('You need to enter your Github username!');
+            return false;
+          }
+        }
+      },
+      {
+        type: 'input',
+        name: 'email',
+        message: 'What is your email address',
+        validate: emailAddressInput => {
+          if (emailAddressInput) {
+            return true;
+          } else {
+            console.log('You need to enter a email address!');
+            return false;
+          }
+        }
+      },
+      {
+        type: 'input',
+        name: 'ProjectName',
+        message: 'What is your projects name?)',
+        validate: linkInput => {
+          if (linkInput) {
             return true;
           } else {
             console.log('You need to enter a project name!');
             return false;
           }
         }
-      },
+        },
       {
         type: 'input',
         name: 'description',
-        message: 'Provide a description of the project (Required)',
-        validate: descriptionInput => {
-          if (descriptionInput) {
-            return true;
-          } else {
-            console.log('You need to enter a project description!');
-            return false;
-          }
-        }
-      },
-      {
-        type: 'checkbox',
-        name: 'languages',
-        message: 'What did you this project with? (Check all that apply)',
-        choices: ['JavaScript', 'HTML', 'CSS', 'ES6', 'jQuery', 'Bootstrap', 'Node']
-      },
-      {
-        type: 'input',
-        name: 'link',
-        message: 'Enter the GitHub link to your project. (Required)',
+        message: 'Please write a short description of your project',
         validate: linkInput => {
           if (linkInput) {
             return true;
           } else {
-            console.log('You need to enter a project GitHub link!');
+            console.log('You need to enter short description of your project');
             return false;
           }
         }
@@ -127,21 +150,26 @@ Add a New Project
     });
 };
 
-promptUser()
-  .then(promptProject)
+// writing files
+const writeFile = fileContent => {
+  return new Promise((resolve, reject) => {
+    fs.writeFile('./dist/readme.md', fileContent, err => {
+      if (err) {
+        reject(err);
+        return;
+      }
+
+      resolve({
+        ok: true,
+        message: 'File created!'
+      });
+    });
+  });
+};
+
+promptProject()
   .then(portfolioData => {
-    return generatePage(portfolioData);
-  })
-  .then(pageHTML => {
+    var pageHTML = generatePage(portfolioData);
     return writeFile(pageHTML);
   })
-  .then(writeFileResponse => {
-    console.log(writeFileResponse);
-    return copyFile();
-  })
-  .then(copyFileResponse => {
-    console.log(copyFileResponse);
-  })
-  .catch(err => {
-    console.log(err);
-  });
+  
