@@ -1,6 +1,6 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
-const generatePage = require('./src/page-template.js');
+const showReadme = require('./src/page-template.js');
 // const { writeFile, copyFile } = require('./utils/generateMarkdown');
 
 
