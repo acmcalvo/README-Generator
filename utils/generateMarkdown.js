@@ -4,15 +4,14 @@ function generateMarkdown(data) {
     let licenseOption = `${data.license}`;
     let licenseLink = '';
 
+     //create if condition 
+
     if (licenseOption === 'MIT License') {
         licenseOption = 'MITLicense';
         licenseLink = 'https://choosealicense.com/licenses/mit/';
       };
-    //create if condition 
-    // if (licenseOption === 'GNU AGPLv3') {
-    //   licenseOption = 'GNUAGPLv3';
-    //   licenseLink = 'https://choosealicense.com/licenses/agpl-3.0/';
-    // };
+   
+   
     if (licenseOption === 'GNU GPLv3') {
       licenseOption = 'GNUGPLv3';
       licenseLink = 'https://choosealicense.com/licenses/gpl-3.0/';
