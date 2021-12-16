@@ -225,6 +225,8 @@ const writeFile = fileContent => {
   });
 };
 
+module.exports = writeFile;
+
 promptProject()
   .then(portfolioData => {
     var pageHTML = generatePage(portfolioData);

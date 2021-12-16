@@ -10,6 +10,7 @@ function generateMarkdown(data) {
         licenseOption = 'MITLicense';
         licenseLink = 'https://choosealicense.com/licenses/mit/';
       };
+      
    
    
     if (licenseOption === 'GNU GPLv3') {
@@ -140,5 +141,6 @@ function generateMarkdown(data) {
     `;
     return markdownTemplate;
   }
+  
   
   module.exports = generateMarkdown;
