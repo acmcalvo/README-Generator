@@ -4,7 +4,8 @@ const generateMarkdown = data => {
   # ${data.projectName}
 
   # ${data.license}
-  ![Github license](http://img.shields.io/badge/license- ${data.license}-blue.svg)`
+  ![Github license](https://img.shields.io/github/license/acmcalvo/https://github.com/acmcalvo/README-Generator.git)`
+  // https://img.shields.io/github/license/acmcalvo/https://github.com/acmcalvo/README-Generator.git
   
   
   
