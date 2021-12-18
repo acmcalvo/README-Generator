@@ -1,146 +1,33 @@
-// create function 
-function generateMarkdown(data) {
-    //license
-    let licenseOption = `${data.license}`;
-    let licenseLink = '';
-
-     //create if condition 
-
-    if (licenseOption === 'MIT License') {
-        licenseOption = 'MITLicense';
-        licenseLink = 'https://choosealicense.com/licenses/mit/';
-      };
-      
-   
-   
-    if (licenseOption === 'GNU GPLv3') {
-      licenseOption = 'GNUGPLv3';
-      licenseLink = 'https://choosealicense.com/licenses/gpl-3.0/';
-    };
-   
-    if (licenseOption === 'Apache License 2.0') {
-      licenseOption = 'ApacheLicense2.0';
-      licenseLink = 'https://choosealicense.com/licenses/apache-2.0/';
-    };
-    
-    
-  //create variable to hold markdown template and dynamically add to it
-  let markdownTemplate =
-      
-  //title, badge, and description
-      
-  `# ${data.title}
-  ## Description
+// function to generate markdown for README
+const generateMarkdown = data => {
+  return `# ${data.title}
+  ![Github license](http://img.shields.io/badge/license-${data.license}-blue.svg)
+  
+  ## Description 
   ${data.description}
-  ![badge](https://img.shields.io/badge/license-${licenseOption}-brightorange)
-  You can access more badges and their purposes at [shields.io](https://shields.io)
-  `;
-    //create optional sections in a table of contents to 
-    //be added after required title, description
+  ## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
   
-  let tableOfContents =
-  `## Table of Contents`;
-    if (data.installation) {
-      tableOfContents +=
-        `
-    * [Installation](#installation)`
-    };
-    if (data.instructions) {
-      tableOfContents +=
-        `
-    * [Usage](#usage)`
-    };
-    if (data.contribution) {
-      tableOfContents +=
-        `
-    * [Contribution](#contribution)`
-    };
-    if (data.testing) {
-      tableOfContents +=
-        `
-    * [Testing](#testing)`
-    };
-  
-    //append table to template
-    markdownTemplate += tableOfContents;
-  
-    //add contact info and license (required)
-    markdownTemplate +=
-      `
-    * [Questions](#questions)`;
-    markdownTemplate +=
-      `
-    * [License](#license)
-      
-      `;
-  
-    //add optional sections content
-  
-    //installation
-    if (data.installation) {
-      markdownTemplate +=
-        `
-  ## Installation
-      
-    _Follow these steps to properly install this application:_
-    ${data.installation}`
-    };
-  
-    //usage
-    if (data.instructions) {
-      markdownTemplate +=
-        `
-        
-  ## Usage
-    _Instructions for use:_
-    ${data.instructions}`
-    };
-  
-    //contributions
-    if (data.contribution) {
-      markdownTemplate +=
-        `
-        
-  ## Contribution
-    _If you would like to contribute, please adhere to these guidelines:_
-    ${data.contribution}`
-    };
-  
-    //testing
-    if (data.testing) {
-      markdownTemplate +=
-        `
-        
-  ## Testing
-    _Instructions for testing application:_
-    ${data.testing}`
-    };
-  
-    //questions
-      markdownTemplate +=
-        `
-        
+  ## Installation 
+  ${data.install}
+  ## Usage 
+  ${data.usage}
+  ## License 
+  This project is license under ${data.license}
+  ## Contributing 
+  ${data.contributors}
+  ## Tests
+  ${data.test}
   ## Questions
-        
-    _For further questions:_
-    ${data.questions}
-    
-    _Contact Info:_
-    GitHub: [${data.username}](https://github.com/${data.username})
-    Email: [${data.email}](mailto:${data.email})`;
-    
-    markdownTemplate +=
-      `
-      
-  ## License
-        
-    _This application has the ${data.license}._
-        
-    For more information please view the [license description](${licenseLink}).
-    
-    `;
-    return markdownTemplate;
-  }
-  
-  
-  module.exports = generateMarkdown;
+  If you have any questions about this projects, please contact me directly at ${data.email}. You can view more of my projects at https://github.com/${data.github}.
+`;
+}
+
+
+// use for importing Markdown in index 
+module.exports = generateMarkdown;
