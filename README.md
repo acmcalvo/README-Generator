@@ -2,8 +2,9 @@
   # a
 
   # MIT License,GNU GPLv3,Apache License
+ 
+  ![NPM](https://img.shields.io/npm/l/MIT?logo=MIT&style=plastic)
   
-  ![Badge](https://img.shields.io/badge/License-MIT License,GNU GPLv3,Apache License-blueviolet)
   
   ## Description 
   a
@@ -16,7 +17,7 @@
   * [Questions](#questions)
   
   ## Installation 
-  a
+  ay
   ## Usage 
   undefined
   ## License 
@@ -26,4 +27,4 @@
   ## Tests
   undefined
   ## Questions
-  If you have any questions about this projects, please contact me directly at a. You can view more of my projects at https://github.com/aaa.
+  If you have any questions about this projects, please contact me directly at a. You can view more of my projects at https://github.com/aaaa.

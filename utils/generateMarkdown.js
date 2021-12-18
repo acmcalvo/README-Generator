@@ -4,8 +4,9 @@ const generateMarkdown = data => {
   # ${data.projectName}
 
   # ${data.license}
+ 
+  ![NPM](https://img.shields.io/npm/l/MIT?logo=MIT&style=plastic)
   
-  ![Badge](https://img.shields.io/badge/License-${data.license}-blueviolet)
   
   ## Description 
   ${data.description}
