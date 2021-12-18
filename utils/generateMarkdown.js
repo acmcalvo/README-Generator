@@ -9,7 +9,7 @@ const generateMarkdown = data => {
   
   
   ## Table of Contents
-  * [Description(#description)
+  * [Description](#description)
   * [License](#license)
   * [Install](#install)
   * [Tests](#run)
