@@ -1,8 +1,11 @@
-# mantis
-  ![Github license](http://img.shields.io/badge/license--blue.svg)
+
+  #README.MD
+  
+  # MIT License,GNU GPLv3,Apache License
+  ![Github license](http://img.shields.io/badge/license-MIT License,GNU GPLv3,Apache License-blue.svg)
   
   ## Description 
-  y
+  a
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -16,10 +19,10 @@
   ## Usage 
   undefined
   ## License 
-  This project is license under 
+  This project is license under MIT License,GNU GPLv3,Apache License
   ## Contributing 
   undefined
   ## Tests
   undefined
   ## Questions
-  If you have any questions about this projects, please contact me directly at aaaa. You can view more of my projects at https://github.com/undefined.
+  If you have any questions about this projects, please contact me directly at aaaa. You can view more of my projects at https://github.com/alvaro.
