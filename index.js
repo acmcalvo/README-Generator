@@ -63,12 +63,28 @@ const questions = () => {
           }
         }
       },
+      // {
+      //   type: 'checkbox',
+      //   name: 'license',
+      //   message: 'What kind of license should your project have?',
+      //   choices: ['MIT License', 'GNU GPLv3', 'Apache License']
+      // },
+
       {
-        type: 'checkbox',
+        type: 'list',
         name: 'license',
         message: 'What kind of license should your project have?',
-        choices: ['MIT License', 'GNU GPLv3', 'Apache License']
-      },
+        choices: ['MIT', 'GNU'],
+        default: ["MIT"],
+        validate: nameInput => {
+            if (nameInput) {
+                return true;
+            } else {
+                console.log('Please choose a license!');
+                return false; 
+            }
+        }
+    },
       {
         type: 'input',
         name: 'install',
