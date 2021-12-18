@@ -1,10 +1,20 @@
 // function to generate markdown for README
+function renderbadge(license, github, projectName){
+  if (license) {
+    return `<img src='https://img.shields.io/github/license/${github}/${projectName}' >`
+  }
+}
+
+
+
+
 const generateMarkdown = data => {
   return `
+${renderbadge(data.license, data.name, data.projectName )}
+
   # ${data.projectName}
 
-  # ${data.license}
-  ![Github license](http://img.shields.io/badge/license- ${data.license}-blue.svg)
+ 
   
   
   
