@@ -1,8 +1,8 @@
 # undefined
-  ![Github licence](http://img.shields.io/badge/license--blue.svg)
+  ![Github license](http://img.shields.io/badge/license-MIT License-blue.svg)
   
   ## Description 
-  ss
+  y
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -12,14 +12,14 @@
   * [Questions](#questions)
   
   ## Installation 
-  t
+  y
   ## Usage 
   undefined
   ## License 
-  This project is license under 
+  This project is license under MIT License
   ## Contributing 
   undefined
   ## Tests
   undefined
   ## Questions
-  If you have any questions about this projects, please contact me directly at asss. You can view more of my projects at https://github.com/undefined.
+  If you have any questions about this projects, please contact me directly at undefined. You can view more of my projects at https://github.com/undefined.
