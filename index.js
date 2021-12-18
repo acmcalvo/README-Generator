@@ -39,7 +39,7 @@ const questions = () => {
       },
       {
         type: 'input',
-        name: 'ProjectName',
+        name: 'projectName',
         message: 'What is your projects name?)',
         validate: linkInput => {
           if (linkInput) {
