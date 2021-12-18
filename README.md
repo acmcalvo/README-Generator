@@ -1,13 +1,13 @@
 
   # a
 
-  # MIT
-  ![Github license](http://img.shields.io/badge/license- MIT-blue.svg)
+  # MIT License,GNU GPLv3
+  ![Github license](http://img.shields.io/badge/license- MIT License,GNU GPLv3-blue.svg)
   
   
   
   ## Description 
-  aa
+  a
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -21,7 +21,7 @@
   ## Usage 
   undefined
   ## License 
-  This project is license under MIT
+  This project is license under MIT License,GNU GPLv3
   ## Contributing 
   undefined
   ## Tests
