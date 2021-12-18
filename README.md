@@ -1,8 +1,8 @@
-# undefined
-  ![Github license](http://img.shields.io/badge/license-MIT License-blue.svg)
+** nama **
+  ![Github license](http://img.shields.io/badge/license-MIT License,GNU GPLv3,Apache License-blue.svg)
   
   ## Description 
-  y
+  a
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -12,14 +12,14 @@
   * [Questions](#questions)
   
   ## Installation 
-  y
+  a
   ## Usage 
   undefined
   ## License 
-  This project is license under MIT License
+  This project is license under MIT License,GNU GPLv3,Apache License
   ## Contributing 
   undefined
   ## Tests
   undefined
   ## Questions
-  If you have any questions about this projects, please contact me directly at undefined. You can view more of my projects at https://github.com/undefined.
+  If you have any questions about this projects, please contact me directly at aaa. You can view more of my projects at https://github.com/undefined.
