@@ -16,7 +16,7 @@
   * [Contributing](#contributing)
   
   ## Description
-  aaaaaa
+  aaaa
 
   ## License
   MIT License
