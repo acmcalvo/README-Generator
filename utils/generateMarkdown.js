@@ -11,23 +11,28 @@ const generateMarkdown = data => {
   ## Description 
   ${data.description}
   ## Table of Contents
-  * [Installation](#installation)
-  * [Usage](#usage)
+  * [Description(#description)
   * [License](#license)
+  * [Install](#install)
+  * [Tests](#run)
+  * [Repo](#usingRepo)
   * [Contributing](#contributing)
-  * [Tests](#tests)
-  * [Questions](#questions)
   
-  ## Installation 
-  ${data.install}
-  ## Usage 
-  ${data.usage}
+  ## Description
+  ${data.description}
+
+  ## License
+  ${data.license}
+
   ## License 
   This project is license under ${data.license}
-  ## Contributing 
-  ${data.contributors}
+ 
   ## Tests
-  ${data.test}
+  ${data.run}
+
+  ## Contributing 
+  ${data.contributing}
+
   ## Questions
   If you have any questions about this projects, please contact me directly at ${data.email}. You can view more of my projects at https://github.com/${data.name}.
 `;
