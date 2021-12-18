@@ -2,7 +2,8 @@
   # a
 
   # MIT License,GNU GPLv3,Apache License
-  ![Github license](http://img.shields.io/badge/license-MIT License,GNU GPLv3,Apache License-blue.svg)
+  
+  ![Badge](https://img.shields.io/badge/License-MIT License,GNU GPLv3,Apache License-blueviolet)
   
   ## Description 
   a
@@ -25,4 +26,4 @@
   ## Tests
   undefined
   ## Questions
-  If you have any questions about this projects, please contact me directly at aaaa. You can view more of my projects at https://github.com/nanana.
+  If you have any questions about this projects, please contact me directly at a. You can view more of my projects at https://github.com/aaa.
