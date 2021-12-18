@@ -1,8 +1,8 @@
-** nama **
-  ![Github license](http://img.shields.io/badge/license-MIT License,GNU GPLv3,Apache License-blue.svg)
+# mantis
+  ![Github license](http://img.shields.io/badge/license--blue.svg)
   
   ## Description 
-  a
+  y
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -12,14 +12,14 @@
   * [Questions](#questions)
   
   ## Installation 
-  a
+  y
   ## Usage 
   undefined
   ## License 
-  This project is license under MIT License,GNU GPLv3,Apache License
+  This project is license under 
   ## Contributing 
   undefined
   ## Tests
   undefined
   ## Questions
-  If you have any questions about this projects, please contact me directly at aaa. You can view more of my projects at https://github.com/undefined.
+  If you have any questions about this projects, please contact me directly at aaaa. You can view more of my projects at https://github.com/undefined.
