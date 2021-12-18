@@ -8,8 +8,6 @@ const generateMarkdown = data => {
   
   
   
-  ## Description 
-  ${data.description}
   ## Table of Contents
   * [Description(#description)
   * [License](#license)
