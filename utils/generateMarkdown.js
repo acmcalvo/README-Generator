@@ -40,7 +40,8 @@ ${renderbadge(data.license, data.name, data.projectName )}
   ${data.contributing}
 
   ## Questions
-  If you have any questions about this projects, please contact me directly at ${data.email}. You can view more of my projects at https://github.com/${data.name}.
+  If you have any questions about this projects, please contact me directly at ${data.email}. 
+  You can view more of my projects at https://github.com/${data.name}.
 `;
 }
 
