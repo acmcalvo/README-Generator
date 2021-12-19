@@ -1,7 +1,7 @@
 
-<img src='https://img.shields.io/github/license/acmcalvo/README' >
+<img src='https://img.shields.io/github/license/acmcalvo/README-Generator' >
 
-  # README
+  # README-Generator
 
  
   
@@ -16,17 +16,18 @@
   * [Contributing](#contributing)
   
   ## Description
-  aaa
+  test
 
   
   ## License 
-  This project is license under MIT License,GNU GPLv3,Apache License
+  This project is license under MIT License
  
   ## Tests
-  y
+  node index.js
 
   ## Contributing 
-  y
+  NA
 
   ## Questions
-  If you have any questions about this projects, please contact me directly at acmcalvo. You can view more of my projects at https://github.com/acmcalvo.
+  If you have any questions about this projects, please contact me directly at acmcalvo@yahoo.com. 
+  You can view more of my projects at https://github.com/acmcalvo.
