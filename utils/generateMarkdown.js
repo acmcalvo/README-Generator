@@ -23,7 +23,7 @@ ${renderbadge(data.license, data.name, data.projectName )}
   * [License](#license)
   * [Install](#install)
   * [Tests](#run)
-  * [Repo](#usingRepo)
+  * [Repository](#usingRepo)s
   * [Contributing](#contributing)
   
   ## Description
