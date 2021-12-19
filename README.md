@@ -1,4 +1,3 @@
-
 <img src='https://img.shields.io/github/license/acmcalvo/README-Generator' >
 
   # README-Generator
@@ -16,7 +15,7 @@
   * [Contributing](#contributing)
   
   ## Description
-  NA
+  readme project genertor
 
   
   ## License 
