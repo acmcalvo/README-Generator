@@ -1,7 +1,7 @@
 
-<img src='https://img.shields.io/github/license/aaa/a' >
+<img src='https://img.shields.io/github/license/acmcalvo/README-Generator' >
 
-  # a
+  # README-Generator
 
  
   
@@ -16,21 +16,18 @@
   * [Contributing](#contributing)
   
   ## Description
-  a
+  readme project genertor
 
   
   ## License 
-  This project is license under MIT License,GNU GPLv3,Apache License
-
-  ## Install
-  a
+  This project is license under MIT License
  
   ## Tests
-  a
+  node index
 
   ## Contributing 
-  a
+  NA
 
   ## Questions
-  If you have any questions about this projects, please contact me directly at a. 
-  You can view more of my projects at https://github.com/aaa.
+  If you have any questions about this projects, please contact me directly at acmcalvo@yahoo.com. 
+  You can view more of my projects at https://github.com/acmcalvo.
