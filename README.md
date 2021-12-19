@@ -28,5 +28,5 @@
   NA
 
   ## Questions
-  If you have any questions about this projects, please contact me directly at acmcalvo@yahoo.com. 
+  If you have any questions about this projects, please contact me directly at acmcalvo@yahoo.com./p 
   You can view more of my projects at https://github.com/acmcalvo.
