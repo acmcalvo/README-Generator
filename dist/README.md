@@ -16,14 +16,14 @@
   * [Contributing](#contributing)
   
   ## Description
-  test
+  readme project genertor
 
   
   ## License 
   This project is license under MIT License
  
   ## Tests
-  node index.js
+  node index
 
   ## Contributing 
   NA
