@@ -12,7 +12,7 @@
   * [License](#license)
   * [Install](#install)
   * [Tests](#run)
-  * [Repository](#usingRepo)s
+  * [Repository](#usingRepo)
   * [Contributing](#contributing)
   
   ## Description

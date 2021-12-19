@@ -29,9 +29,7 @@ ${renderbadge(data.license, data.name, data.projectName )}
   ## Description
   ${data.description}
 
-  ## License
-  ${data.license}
-
+  
   ## License 
   This project is license under ${data.license}
  
