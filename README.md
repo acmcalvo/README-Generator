@@ -16,7 +16,7 @@
   * [Contributing](#contributing)
   
   ## Description
-  aaaa
+This project was built with Node.js using the inquirer package. With thi app you will prompt the user informa
 
   ## License
   MIT License
@@ -31,4 +31,5 @@
   y
 
   ## Questions
-  If you have any questions about this projects, please contact me directly at aaaa. You can view more of my projects at https://github.com/acmcalvo.
+  If you have any questions about this projects, please contact me directly at: acmcalvo@yahoo.com 
+  You can view more of my projects at https://github.com/acmcalvo.
