@@ -16,7 +16,7 @@
   * [Contributing](#contributing)
   
   ## Description
-  readme project genertor
+  NA
 
   
   ## License 
