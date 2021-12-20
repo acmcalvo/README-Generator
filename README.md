@@ -1,5 +1,5 @@
 
-<img src='https://img.shields.io/github/license/acmcalvo/README_Generator' >
+<img src='https://img.shields.io/github/license/acmcalvo/README-Generator' >
 
   # README-Generator
 
@@ -10,20 +10,20 @@
   ## Table of Contents
   * [Description](#description)
   * [License](#license)
-  * [Install](#install)
+  * [Installation](#install)
   * [Tests](#run)
   * [Repository](#usingRepo)
   * [Contributing](#contributing)
   
   ## Description
-  yes
+  test
 
   
   ## License 
   This project is license under MIT License
 
-  ## Install
-  Install NPM to ac
+  ## Installation
+  yes
  
   ## Tests
   yes
@@ -32,5 +32,5 @@
   yes
 
   ## Questions
-  If you have any questions about this projects, please contact me directly at README-Generator. 
+  If you have any questions about this projects, please contact me directly at acmcalvo@yahoo.com. 
   You can view more of my projects at https://github.com/acmcalvo.
