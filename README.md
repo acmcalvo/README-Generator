@@ -1,7 +1,7 @@
 
 <img src='https://img.shields.io/github/license/acmcalvo/README_Generator' >
 
-  # README_Generator
+  # README-Generator
 
  
   
