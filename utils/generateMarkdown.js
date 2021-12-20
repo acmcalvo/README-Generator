@@ -21,7 +21,7 @@ ${renderbadge(data.license, data.name, data.projectName )}
   ## Table of Contents
   * [Description](#description)
   * [License](#license)
-  * [Install](#install)
+  * [Installation](#install)
   * [Tests](#run)
   * [Repository](#usingRepo)
   * [Contributing](#contributing)
