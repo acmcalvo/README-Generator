@@ -30,10 +30,10 @@
   To get started fork the project for your own GitHub and clone the repository. Open the directory where package.json is located in the terminal. Run a npm install to install all the dependencies for this application. Then you are ready to go.
  
   ## Tests
-  yes
+  There are currently no test for this application
 
   ## Contributing 
-  yes
+  Contributions are welcome. If you want to make a major change, please open the issue page on Github. Thanks
 
   ## Questions
   If you have any questions about this projects, please contact me directly at acmcalvo@yahoo.com. 
