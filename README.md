@@ -23,7 +23,7 @@
   This project is license under MIT License
 
   ## Install
-  yes
+  Install NPM to ac
  
   ## Tests
   yes
