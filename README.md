@@ -20,14 +20,14 @@
   https://watch.screencastify.com/v/4J28aIqdpzK2Ja4871kZ
   
   ## Description
-  test
+ 
 
   
   ## License 
   This project is license under MIT License
 
   ## Installation
-  yes
+  To get started fork the project for your own GitHub and clone the repository. Open the directory where package.json is located in the terminal. Run a npm install to install all the dependencies for this application. Then you are ready to go.
  
   ## Tests
   yes
