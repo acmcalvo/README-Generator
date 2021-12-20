@@ -1,7 +1,7 @@
 
-<img src='https://img.shields.io/github/license/acmcalvo/README_Generator' >
+<img src='https://img.shields.io/github/license/acmcalvo/README-Generator' >
 
-  # README_Generator
+  # README-Generator
 
  
   
@@ -16,7 +16,7 @@
   * [Contributing](#contributing)
   
   ## Description
-  yes
+  na
 
   
   ## License 
@@ -32,5 +32,5 @@
   yes
 
   ## Questions
-  If you have any questions about this projects, please contact me directly at README-Generator. 
+  If you have any questions about this projects, please contact me directly at acmcalvo@yahoo.com. 
   You can view more of my projects at https://github.com/acmcalvo.
