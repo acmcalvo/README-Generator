@@ -33,7 +33,7 @@ ${renderbadge(data.license, data.name, data.projectName )}
   ## License 
   This project is license under ${data.license}
 
-  ## Install
+  ## Installation
   ${data.install}
  
   ## Tests
