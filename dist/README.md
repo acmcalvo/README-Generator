@@ -10,19 +10,19 @@
   ## Table of Contents
   * [Description](#description)
   * [License](#license)
-  * [Install](#install)
+  * [Installation](#install)
   * [Tests](#run)
   * [Repository](#usingRepo)
   * [Contributing](#contributing)
   
   ## Description
-  na
+  test
 
   
   ## License 
   This project is license under MIT License
 
-  ## Install
+  ## Installation
   yes
  
   ## Tests
